@@ -36,6 +36,8 @@ public class ResultFetch implements Constants
 			{
 				Util.saveAsCSV(subject, results.get(subject));
 			}
+
+			Util.saveAnalysisCSV(results);
 			System.out.println("Completed successfully");
 		}
 	}

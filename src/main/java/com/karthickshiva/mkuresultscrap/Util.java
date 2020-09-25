@@ -67,10 +67,11 @@ public class Util implements Constants
 		results.get(subject).add(record);
 	}
 
-	static File createFile(String subject)
+	static File createFile(String subject, boolean isAnalysis)
 	{
 		String directory = Configuration.getProp(OUTPUT_FILE);
-		File outputFile = new File(directory + subject + ".csv");
+		String fileName = (isAnalysis) ? directory + SUMMARY + ".csv" : directory + subject + ".csv";
+		File outputFile = new File(fileName);
 		File parent = outputFile.getParentFile();
 		if (!parent.exists() && !parent.mkdirs())
 		{
@@ -79,12 +80,22 @@ public class Util implements Constants
 		return outputFile;
 	}
 
+	static int countPassedStudents(List<Record> result)
+	{
+		int count = 0;
+		for(Record record : result)
+		{
+			count = (record.result.equals("P")) ? count + 1 : count;
+		}
+		return count;
+	}
+
 	public static void saveAsCSV(String subject, List<Record> records) throws IOException
 	{
-		File outputFile = createFile(subject);
+		File outputFile = createFile(subject, false);
 		BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
 		CSVPrinter printer = new CSVPrinter(writer, CSVFormat.DEFAULT);
-		printer.printRecord(HEADERS);
+		printer.printRecord(HEADER);
 		for (Record record : records)
 		{
 			printer.printRecord(
@@ -99,5 +110,29 @@ public class Util implements Constants
 		}
 		printer.flush();
 		System.out.println("Output file saved successfully : " + outputFile.getAbsolutePath());
+	}
+
+	public static void saveAnalysisCSV(Map<String, List<Record>> results) throws IOException
+	{
+		File outputFile = createFile(null, true);
+		BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
+		CSVPrinter printer = new CSVPrinter(writer, CSVFormat.DEFAULT);
+		printer.printRecord(SUMMARY_HEADER);
+		for(String subject : results.keySet())
+		{
+			List<Record> result = results.get(subject);
+			int appeared = result.size();
+			int passed = countPassedStudents(result);
+			int failures = appeared - passed;
+			double passPercentage = (passed*100.0)/appeared;
+			printer.printRecord(
+					subject,
+					appeared,
+					passed,
+					failures,
+					String.format("%.2f", passPercentage)
+			);
+		}
+		printer.flush();
 	}
 }

@@ -14,5 +14,7 @@ public interface Constants
 	String PREFIX = "prefix";
 	String SERVER_URL = "server";
 	String OUTPUT_FILE = "output_file";
-	List<String> HEADERS = Arrays.asList("Reg.No", "Student Name", "Subject Code", "Internal Mark", "External Mark", "Grade", "Result");
+	String SUMMARY = "summary";
+	List<String> HEADER = Arrays.asList("Reg.No", "Student Name", "Subject Code", "Internal Mark", "External Mark", "Grade", "Result");
+	List<String> SUMMARY_HEADER = Arrays.asList("Sub code", "Appeared Students", "No of students passed", "No of students failures", "% of pass");
 }
