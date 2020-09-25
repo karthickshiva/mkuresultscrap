@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98a6f5d1-34fe-413f-9cd6-0751384425fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hwOosjbvQgBS2XdOtoEHbPE007" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.19875" />
+    <property name="project.structure.side.proportion" value="0.2527301" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.karthickshiva.mkuresultscrap" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ResultFetch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.karthickshiva.mkuresultscrap.ResultFetch" />
+      <module name="mkuresultscrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.karthickshiva.mkuresultscrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ResultFetch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98a6f5d1-34fe-413f-9cd6-0751384425fd" name="Default Changelist" comment="" />
+      <created>1600918865586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600918865586</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" width="805" height="669" key="#Project_Structure" timestamp="1600920246045">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" width="805" height="669" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1600920246045" />
+    <state x="458" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1600924048682">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1600924048682" />
+    <state x="494" y="316" width="461" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600918982514">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="494" y="316" width="461" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1600918982514" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1601001906606">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601001906606" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1601001906605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601001906605" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1601001906604">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601001906604" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1601001906605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601001906605" />
+    <state x="216" y="205" key="caller.chooser.dialog" timestamp="1600920128394">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="216" y="205" key="caller.chooser.dialog/0.0.1440.900@0.0.1440.900" timestamp="1600920128394" />
+    <state x="520" y="239" key="chooseDestDirectoryDialog" timestamp="1600918982454">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="520" y="239" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1600918982454" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1600938981895">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600938981895" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/karthickshiva/mkuresultscrap/ResultFetch.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
